@@ -42,6 +42,12 @@ production stylesheet in assets/built/screen.css
     --color-wash: #e5eff5;
     --color-darkmode: #151719;
 
+    --wobaka-bg: #f7f4ed;
+    --wobaka-light-accent: #efe9db;
+    --wobaka-accent: #ece5d4;
+    --wobaka-primary: #111f2c;
+    --wobaka-secondary: #314252;
+
     /*
     An accent color is also set by Ghost itself in
     Ghost Admin > Settings > Brand
@@ -1406,8 +1412,25 @@ Ghost editor. */
 
 /* Increases the default h2 size by 15%, for small and large screens */
 .footer-cta h2 {
-    margin: 0 0 30px;
+    margin: 0 0 15px;
     font-size: 3.2rem;
+}
+
+.footer-cta-slash {
+    color: yellow;
+}
+
+.footer-cta-muted {
+    opacity: 0.5;
+}
+
+.footer-cta-lead {
+    opacity: 0.8;
+}
+
+.footer-cta-lead {
+    margin: 0 0 30px;
+    font-size: 1.6rem;
 }
 
 @media (max-width: 600px) {
